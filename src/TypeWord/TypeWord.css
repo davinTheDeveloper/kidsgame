@@ -1,0 +1,78 @@
+#spell {
+    display: none;
+    outline: none;
+}
+
+.fix {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.SpellWord {
+    margin: 50px;
+    height: 150px;
+    width: auto;
+    border: solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(3vw + 4vh);
+    font-weight: 700;
+    letter-spacing: 2rem;
+    box-shadow: 10px 5px 5px grey;
+    color: black;
+    
+}
+
+#userInput {
+    border-style: hidden;
+    border-bottom-style: solid;
+    font-size: calc(1vw + 2vh);
+    color: black;
+    text-align: center;
+}
+
+#userInput:focus,
+#userInput:active,
+textarea:focus,
+select:focus {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline: lightblue;
+    color: black;
+}
+
+.btnCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.checkBtn {
+    margin-left: 15px;
+    background-color: rgb(255, 255, 110);
+    cursor: pointer;
+    width: 20%;
+}
+
+canvas {
+    background: transparent;
+}
+
+#nextWord {
+    cursor: pointer;
+    font-size: calc(1.5vw + 2.5vh);
+}
+
+#resetBtn {
+    text-decoration-line: none;
+}
+
+#resetBtn:active,
+#resetBtn:focus,
+#resetBtn:link,
+#resetBtn:hover {
+    color: black;
+    text-decoration: none;
+}
