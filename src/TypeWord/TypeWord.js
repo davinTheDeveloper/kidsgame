@@ -42,4 +42,3 @@ function TypeWord() {
     )
 };
 export default TypeWord;
-
